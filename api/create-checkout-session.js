@@ -41,8 +41,7 @@ export default async function handler(request, response) {
         },
       ],
       mode: 'payment',
-      // success_url: `${process.env.STRIPE_CALLBACK_URL}/stripe/success?session_id={CHECKOUT_SESSION_ID}`,
-      success_url: `http://192.168.100.17:3000/stripe/success?session_id={CHECKOUT_SESSION_ID}`,
+      success_url: `${process.env.STRIPE_CALLBACK_URL}/stripe/success?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: request.headers.referer,
     });
     response.redirect(303, session.url);

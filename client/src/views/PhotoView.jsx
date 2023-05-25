@@ -60,7 +60,7 @@ function PhotoView() {
                     <div className="pricing-options-list">
                         {prices.length > 0 && prices?.sort((a, b) => a.unit_amount - b.unit_amount)?.map(price => <Prices key={price.id} id={price.id} size={price.nickname} currency={price.currency} price={formatStripePrice(price.unit_amount)} onClick={handlePricingOptionClick} isHighlighted={currentPriceId === price.id} />)}
                     </div>
-                    <form action="/api/create-checkout-session" method="POST">
+                    <form action={`${process.env.REACT_APP_SERVER_URL}/api/create-checkout-session`} method="POST">
                         <input type="hidden" name="price_id" value={currentPriceId} />
                         <button type="submit">
                             Checkout
