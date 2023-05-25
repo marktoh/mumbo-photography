@@ -1,0 +1,32 @@
+.photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+  animation: fadeIn 0.2s ease;
+}
+
+.photo img:not([src]) {
+  visibility: hidden;
+}
+
+.photo .description {
+  color: hsl(30, 100%, 70%);
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

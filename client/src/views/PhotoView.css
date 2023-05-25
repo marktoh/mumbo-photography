@@ -1,0 +1,136 @@
+.photo-view {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.photo-view .photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-view .photo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 1001px) {
+    .photo-view .photo-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .photo-view .photo-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+.photo-view .description h2 {
+    text-transform: uppercase;
+    font-size: 1.0rem;
+    font-weight: 400;
+    color: hsl(0, 0%,50%);
+    letter-spacing: 2px;
+}
+
+.photo-view .description p {
+    font-weight: 200;
+}
+
+.photo-view .purchase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.pricing-options-list {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Removes native styling for button */
+.photo-view button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+}
+
+.photo-view .pricing-option {
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    box-sizing: border-box;
+    border: inherit;
+    border: solid 1px transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.photo-view .pricing-option.highlight {
+    border: 1px solid hsl(40, 100%, 70%);
+    border-radius: 2px;
+}
+
+.photo-view .pricing-option .pricing-option-property {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+.photo-view .pricing-option span {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+}
+
+.photo-view .pricing-option b {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.photo-view .pricing-option:hover {
+    opacity: 0.8;
+}
+
+.photo-view .pricing-option .currency {
+    text-transform: uppercase;
+    font-size: 1.0rem;
+}
+
+.photo-view form button {
+    height: 50px;
+    width: 300px;
+    border-radius: 2px;
+    background: #556cd6;
+    background: hsl(40, 100%, 70%);
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0px 4px 5.5px 0px rgba(0,0,0,.07)
+}
+
+.photo-view form button:hover {
+    opacity: 0.7;
+}
