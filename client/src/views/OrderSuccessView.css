@@ -4,3 +4,11 @@
     justify-content: center;
     text-align: center;
 }
+
+.success-notification h1 {
+    font-weight: 200;
+}
+
+.success-notification p {
+    font-weight: 100;
+}
