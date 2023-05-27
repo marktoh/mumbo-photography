@@ -8,6 +8,13 @@ import { formatStripePrice } from '../utils/money';
 
 import './PhotoView.css';
 
+function Banner() {
+    return (
+        <div className="banner">
+            Free shipping is now available
+        </div>
+    )
+}
 function PhotoView() {
     const { id } = useParams();
     const [prices, setPrices] = useState([]);
@@ -51,6 +58,7 @@ function PhotoView() {
             <div className="photo-container">
                 <Photo src={product?.images?.[0]} description={product?.description} />
             </div>
+            <Banner />
             <div className="photo-details">
                 <div className="description">
                     <h2>Dimensions</h2>
