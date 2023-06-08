@@ -131,6 +131,7 @@
 
 .photo-view form button {
     height: 50px;
+    min-width: 300px;
     width: 100%;
     border-radius: 2px;
     background: #556cd6;
