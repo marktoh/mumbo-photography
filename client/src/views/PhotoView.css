@@ -64,7 +64,6 @@
 }
 
 .pricing-options-list {
-    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,9 +125,13 @@
     font-size: 1.0rem;
 }
 
+.photo-view form {
+    width: 100%;
+}
+
 .photo-view form button {
     height: 50px;
-    width: 300px;
+    width: 100%;
     border-radius: 2px;
     background: #556cd6;
     background: hsl(40, 100%, 70%);

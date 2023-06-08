@@ -32,7 +32,7 @@ function PhotoView() {
                 query: `product:'${id}'`,
               });
             console.log('prices', prices);
-            setPrices(prices?.data);
+            setPrices(prices?.data?.filter(datum => datum?.active === true));
         }
         getProduct();
         getPrices();
