@@ -1,4 +1,4 @@
-# Photography E-Commerce Stripe Website
+# marktoh.com
 
 Front-end layer of the application
 
