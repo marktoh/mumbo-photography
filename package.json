@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "stripe": "^12.6.0"
+  },
+  "devDependencies": {
+    "prettier": "3.2.4"
   }
 }

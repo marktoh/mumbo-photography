@@ -1,15 +1,15 @@
 .photo-library {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 1fr);
-    justify-content: center;
-    justify-items: center;
-    gap: 5px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 1fr);
+  justify-content: center;
+  justify-items: center;
+  gap: 5px 0;
 }
 
 .photo-library a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .photo-library .photo .description {
-    display: none;
+  display: none;
 }

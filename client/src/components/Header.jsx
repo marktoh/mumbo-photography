@@ -1,15 +1,17 @@
 import { Link } from "react-router-dom";
 
-import './Header.css';
+import "./Header.css";
 
 function Header() {
-    return <header>
-        <Link to="/">
-            <div className="logo">
-                <span>Mark</span>
-            </div>
-        </Link>
+  return (
+    <header>
+      <Link to="/">
+        <div className="logo">
+          <span>Mark</span>
+        </div>
+      </Link>
     </header>
+  );
 }
 
 export default Header;

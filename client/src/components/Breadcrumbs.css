@@ -1,35 +1,35 @@
 .breadcrumbs {
-    padding-left: 15px;
-    display: flex;
-    align-items: center;
-    font-size: 0.875rem;
-    font-weight: 200;
-    color: rgb(163,172,185);
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 200;
+  color: rgb(163, 172, 185);
 }
 
 .breadcrumbs span::after {
-    content: "·";
-    color: rgb(163,172,185);
-    font-weight: 300;
-    padding: 0 8px;
+  content: "·";
+  color: rgb(163, 172, 185);
+  font-weight: 300;
+  padding: 0 8px;
 }
 
 .breadcrumbs span:last-child:after {
-    content: "";
+  content: "";
 }
 
 .unstyled-link {
-    margin: 0;
-    padding: 0;
-    color: inherit;
-    font-weight: inherit;
-    font-size: inherit;
-    font-family: inherit;
-    font-style: inherit;
-    text-align: inherit;
-    text-decoration: none;
-    background-color: transparent;
-    border: 0;
-    outline: none;
-    cursor: pointer
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  text-align: inherit;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
 }

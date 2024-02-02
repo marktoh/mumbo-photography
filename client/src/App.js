@@ -1,13 +1,13 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
-import LandingView from './views/LandingView';
-import PhotoView from './views/PhotoView';
-import OrderSuccessView from './views/OrderSuccessView';
+import LandingView from "./views/LandingView";
+import PhotoView from "./views/PhotoView";
+import OrderSuccessView from "./views/OrderSuccessView";
 
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (

@@ -1,14 +1,14 @@
 .order-success-view {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .success-notification h1 {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .success-notification p {
-    font-weight: 100;
+  font-weight: 100;
 }
