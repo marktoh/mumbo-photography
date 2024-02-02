@@ -3,6 +3,14 @@
     "stripe": "^12.6.0"
   },
   "devDependencies": {
+    "husky": "^9.0.10",
+    "lint-staged": "^15.2.1",
     "prettier": "3.2.4"
+  },
+  "lint-staged": {
+    "*.{html,css,js,jsx,md,json,svg}": "prettier --write"
+  },
+  "scripts": {
+    "prepare": "husky install"
   }
 }
