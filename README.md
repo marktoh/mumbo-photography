@@ -1,5 +1,24 @@
-# Photography E-Commerce Stripe Website
-This directory consists of the front-end application and the API layer of Mark's Online Photography Store.
+# marktoh.com
+
+A Photography E-Commerce Stripe Website
+
+## Table of Contents
+
+- 🪜 [Project Structure](#project-structure)
+- 🖥️ [Development](#development)
+
+## Project Structure
+
+    .
+    ├── api                     # Vercel serverless function files
+    ├── client                  # Front-end files
+    └── README.md
 
 ## Development
-In this root directory, run `vercel dev --listen 5000`.
+
+### Scripts
+
+| Script                     | Description                           | Directory  |
+| -------------------------- | ------------------------------------- | ---------- |
+| `vercel dev --listen 5000` | Starts the Vercel serverless function | `.`        |
+| `npm run start`            | Starts the client app                 | `./client` |

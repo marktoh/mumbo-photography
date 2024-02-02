@@ -1,5 +1,15 @@
 # Photography E-Commerce Stripe Website
-This web application runs the front-end layer of Mark's Online Photography Store.
+
+Front-end layer of the application
+
+## Table of Contents
+
+- 🖥️ [Development](#development)
 
 ## Development
-In this directory, run `npm start`.
+
+### Scripts
+
+| Script          | Description    |
+| --------------- | -------------- |
+| `npm run start` | Starts the app |
