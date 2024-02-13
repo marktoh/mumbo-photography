@@ -1,6 +1,6 @@
 # marktoh.com
 
-A Photography E-Commerce Stripe Website
+A photography e-commerce website for Mark Toh built with React and Stripe
 
 ## Table of Contents
 
